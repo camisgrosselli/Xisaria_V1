@@ -1,0 +1,89 @@
+/* Reset básico */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Arial Black", Arial, sans-serif;
+    background: #ffedc2; /* cor creme tipo lancheria */
+    padding: 20px;
+    color: #4a1f00;
+  }
+  
+  /* Título principal estilo letreiro */
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #d10000;
+    font-size: 40px;
+    text-shadow: 2px 2px #ffbf00; /* sombra amarela estilo neon */
+    letter-spacing: 2px;
+  }
+  
+  /* Subtítulos */
+  h2 {
+    margin-top: 25px;
+    color: #b80000;
+    font-size: 24px;
+    text-shadow: 1px 1px #ffcc33;
+  }
+  
+  /* Card de formulário */
+  form {
+    background: #fff3d6; /* amareladinho de xisaria */
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 3px solid #ffb300; /* borda chamativa */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+  }
+  
+  /* Inputs */
+  form input {
+    padding: 10px;
+    border: 2px solid #ffb300;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Botão estilo xis */
+  form button {
+    padding: 12px;
+    background: #d10000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 0px #ffbf00;
+    transition: 0.2s;
+  }
+  
+  form button:hover {
+    background: #b80000;
+    transform: scale(1.02);
+  }
+  
+  /* Lista de produtos */
+  #lista {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  #lista li {
+    background: #fffefa;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 6px solid #d10000;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    font-size: 17px;
+  }
+  
